@@ -2,7 +2,7 @@ image: Ubuntu1804 # образ для сборки
 stack: node 16 # окружение 
 branches: 
   only: 
-    - master # ветка git 
+    - main # ветка git 
 # инструкции 
 cache: node_modules # папка откуда берутся кешированные пакеты  
 install: 

@@ -13,11 +13,10 @@ export default class Team {
 
   addAll(...fullParty) {
     fullParty.forEach((char) => this.members.add(char));
+    return this.members;
   }
 
   toArray() {
-    this.members.entries();
-    /*  в данном пункте задания необходимо изменить Set на массив
-    или создать новую переменную с массивом? */
+    return [...this.members];
   }
 }
